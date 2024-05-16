@@ -12,7 +12,7 @@ public class Main {
         List<Integer> list = new ArrayList<>();
         int n = A.length;
         for(int i=0;i<=n-B;i++){
-            for(int j=i;j<B;j++) {
+            for(int j=i;j<=B;j++) {
                 if (map.containsKey(A[j])) {
                     map.put(A[j], map.get(A[j]) + 1);
                 } else {

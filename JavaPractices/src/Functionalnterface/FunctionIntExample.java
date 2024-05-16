@@ -21,11 +21,19 @@ public class FunctionIntExample {
         noteLst.add(new Notes( "note5", 55));
         noteLst.add(new Notes( "note4", 66));
 
-        Map<Integer, List<Notes>> map = noteLst.stream().sorted(Comparator.comparing(Notes::getTagId).reversed()).collect(Collectors.groupingBy(Notes::getTagId));
+        Map<String, Integer> salaryMap = new HashMap<>();
+        salaryMap.put("Alice", 50000);
+        salaryMap.put("Bob", 60000);
+        salaryMap.put("Charlie", 70000);
+        salaryMap.put("David", 55000);
 
+
+        List<Integer> lkist = salaryMap.values().stream().collect(Collectors.toList());
+
+        Map<Integer, String> map = noteLst.stream().collect(Collectors.toMap(Notes::getTagId , Notes::getTagName));
 
         List<String> list = noteLst.stream().map(Notes::getTagName).collect(Collectors.toList());
-        System.out.println(list);
+        System.out.println(map);
 
         List<Employee> empList = new ArrayList<>();
 
@@ -53,6 +61,9 @@ public class FunctionIntExample {
 
 //        long sum = empList.stream().filter(e -> "HR".equalsIgnoreCase(e.getDeptName())).map(e->e.getSalary()).reduce((a,b) -> a + b).get();
            long sum = empList.stream().filter(e -> "HR".equalsIgnoreCase(e.getDeptName())).mapToLong(Employee::getSalary).sum();
+
+           Map<String , Long> map10 = empList.stream().collect(Collectors.groupingBy(Employee::getDeptName , Collectors.summingLong(Employee::getSalary)));
+           map10.entrySet().stream().max(Map.Entry.comparingByValue());
 
         Optional<Map.Entry<String, Double>> map2 =empList.stream().collect(Collectors.groupingBy(Employee::getDeptName , Collectors.averagingLong(Employee::getSalary)))
                         .entrySet().stream().max(Map.Entry.comparingByValue());
@@ -93,13 +104,13 @@ public class FunctionIntExample {
                 .sorted(Map.Entry.<Integer , Long>comparingByValue().thenComparing(Map.Entry.comparingByKey()))
                 .collect(Collectors.toMap(Map.Entry::getKey ,Map.Entry::getValue));
 
-       System.out.println(sortedList);
+       System.out.println(map3.get());
 
        int[] arr1 = {0,1,2};
 
         int res = IntStream.range(0,arr1.length + 1).filter(i -> Arrays.stream(arr1).noneMatch(x -> x ==i)).findFirst().orElse(0);
 
-        System.out.println(res);
+        System.out.println(map10);
 
     }
 }
