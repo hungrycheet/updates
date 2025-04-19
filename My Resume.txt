@@ -1,0 +1,64 @@
+ 
+Competent Java developer with 4 years of experience in developing and implementing Java-based applications. Proficient in Java and Spring core concepts like OOP’S, Java8, DI, Collections, Exception Handling… etc. and related technologies. Having Knowledge of Developing Single Page Application (SPA) using Angular, HTML, CSS, Typescript and related Technologies. Possesses a conceptual understanding of Spring Security, Multi-threading, and Apache Kafka supplemented by POC’s and actively seeking opportunities to gain practical experience with these technologies. Experienced with Agile methodologies and tools like Eclipse, IntelliJ, Git and VS Code.
+
+
+
+SKILLS
+Languages	: Java, HTML, CSS, and Java Script
+Frameworks	: Spring Boot, Spring MVC and Angular
+Tools	: SQL Developer, VS Code, Eclipse, IntelliJ, Tortoise Git
+OS	: Windows
+
+EXPERIENCE
+
+Mphasis Limited	Bangalore, India
+Java Full Stack Developer	Mar 2021 – May 2024
+Project 1: 
+Project Description: Preference Center is client faced application to configure other applications like ESTAR to set preferences based on Location/Country. Legacy Preference Center application is in Ice facesversion so, we modernized to Angular spring boot application.
+
+•	Involved in requirement gathering, thorough analysis, and the creation of both high-level and detailed low-level designs.
+•	Developed RESTful controllers to create endpoints and service layers to incorporate business logic for respective end points.
+•	Implemented DAO Layers leveraging JDBC Templates to interact with databases for data persistence and retrieval.
+•	Investigated application logs and Kafka logs to identify the root cause of unprocessed records.
+•	Documented findings from log analysis related to Kafka processing issues to aid in future troubleshooting efforts.
+
+
+
+
+
+
+
+
+
+Mphasis Limited	Bangalore, India
+Java Full Stack Developer	Mar 2021 – May 2024
+Project 2: 
+Project Description: Preference Center is client faced application to configure other applications like ESTAR to set preferences based on Location/Country. Legacy Preference Center application is in Ice facesversion so, we modernized to Angular spring boot application.
+
+•	Involved in requirement gathering, thorough analysis, and the creation of both high-level and detailed low-level designs.
+•	Investigated and resolved bugs identified during integration testing of various application modules.
+•	Involved in Implementing RESTful API endpoints and service layers to incorporate business logic for respective end points.
+•	Involved in creating repository layers leveraging Spring Data JPA to interact with databases for data persistence and retrieval.
+•	Involved in designing initial UI mockups and wireframes in Figma to visualize data presentation and user workflows. 
+•	Contributed to the development of user interface (UI) screens and services for making HTTP calls to backend endpoints for retrieving and displaying data on the UI.
+
+Project 2:
+Project Description: Crew Pay application is used to calculate payment of pilot based on multiple factors. There are more than 300 different rules which can impact pilot payment. Also, we modernized FOCUS (legacy) application in to Angular for UI and Spring boot for services.
+
+•	Participated in requirement gathering, thorough analysis, and the creation of both high-level and detailed low-level designs.
+•	Contributed to the development of RESTful services as part of a microservices architecture for the application.
+•	Developed RESTful controllers to create endpoints and service layers to incorporate business logic for respective end points.
+•	Developed repository layers leveraging Spring Data JPA to interact with databases for data persistence and retrieval.
+•	Implemented centralized application logging using Spring AOP and Interceptors for HTTP request/response logging to facilitate detailed tracking of API communication.
+•	Gained exposure to concepts related to multi-threading like thread safety, synchronization...etc. While working on related tasks.
+•	Developed user interface (UI) screens to display pilot information and services for making HTTP calls to backend endpoints for retrieving the data.
+
+
+EDUCATION
+
+B.E - Electronics and Communication Engineering
+Sree Vidyanikethan Engineering College - May 2020 India.
+
+CERTIFIATIONS
+•	Mphasis Certified Java Microservices.
+•	Mphasis Certified Angular.
