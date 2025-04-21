@@ -19,7 +19,7 @@ Project Description: Preference Center is client faced application to configure 
 •	Involved in requirement gathering, thorough analysis, and the creation of both high-level and detailed low-level designs.
 •	Developed RESTful controllers to create endpoints and service layers to incorporate business logic for respective end points.
 •	Implemented DAO Layers leveraging JDBC Templates to interact with databases for data persistence and retrieval.
-•	Investigated application logs and Kafka logs to identify the root cause of unprocessed records.
+•	Investigated application and Kafka logs to track message flow and identify the root cause of unprocessed records.
 •	Documented findings from log analysis related to Kafka processing issues to aid in future troubleshooting efforts.
 
 
